@@ -54,6 +54,7 @@ function ApiCallTest() {
           <h1>Loading Data...</h1>
         </div>
       ) : (
+
         <div style={userListStyle}>
           {users.map((user) => (
             <div key={user?.id} style={userItemStyle}>
